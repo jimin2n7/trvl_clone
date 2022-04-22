@@ -13,7 +13,7 @@ function App() {
       <Router>
         <Navbar/>
         <Routes>
-          <Route path='/' element={<Home/>}></Route>
+          <Route path='/trvl_clone' element={<Home/>}></Route>
           <Route path='/services' element={<Services/>}></Route>
           <Route path='/products' element={<Products/>}></Route>
           <Route path='/signup' element={<SignUp/>}></Route>

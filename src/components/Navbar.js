@@ -28,7 +28,7 @@ function Navbar() {
     <>
       <nav className='navbar'>
           <div className="navbar-container">
-            <Link to="/" className="navbar-logo" onClick={closeMenuMobile}>
+            <Link to="/trvl_clone" className="navbar-logo" onClick={closeMenuMobile}>
               TRVL <i className="fa-brands fa-typo3"></i>
             </Link>
             <div className="menu-icon" onClick={handleClick}>
@@ -36,7 +36,7 @@ function Navbar() {
             </div>
             <ul className={click ? "nav-menu active": "nav-menu"}>
               <li className='nav-item' onClick={closeMenuMobile}>
-                <Link to='/' className="nav-links">Home</Link>
+                <Link to='/trvl_clone' className="nav-links">Home</Link>
               </li>
               <li className='nav-item' onClick={closeMenuMobile}>
                 <Link to='/services' className="nav-links">Services</Link>
